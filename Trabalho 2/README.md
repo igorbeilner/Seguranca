@@ -4,6 +4,8 @@
 
 <i>AES.</i>
 
-Para executar digite: python aes.py data/chaveX.data data/texto.data
+Para executar digite:
 
-	onde X é o tamanho da chave, 16, 24 ou 32.
+	python aes.py data/chaveX.data data/texto.data
+
+onde X é o tamanho da chave, 16, 24 ou 32.
