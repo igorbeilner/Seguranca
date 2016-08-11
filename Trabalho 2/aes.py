@@ -20,7 +20,7 @@ except ValueError as error:
 
 criptografado = IV + cipher.encrypt(texto)
 
-descriptografado = cipher.decrypt(criptografado)[AES.block_size:]
+decriptografado = cipher.decrypt(criptografado)[AES.block_size:]
 
 print "\nTexto criptografado:\n", criptografado
-print "\nTexto descriptografado:\n", descriptografado
+print "\nTexto decriptografado:\n", decriptografado
